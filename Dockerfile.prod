@@ -9,4 +9,4 @@ WORKDIR /my_product-register
 COPY Gemfile Gemfile.lock /my_product-register/
 RUN bundle install
 COPY . .
-#CMD ["rails", "s"]
+CMD ["rails", "s"]
