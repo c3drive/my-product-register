@@ -11,7 +11,7 @@ services:
     volumes:
       - '.:/my_product-register'
     environment:
-      - 'DATABASE_PASSWORD=postgres'
+      - 'POSTGRES_PASSWORD=postgres'
     tty: true
     stdin_open: true
     depends_on:
